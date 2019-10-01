@@ -13,7 +13,6 @@ code {
     monospace;
 }
 
-
 .mainLogo{
     width: 205px;
     height: 200px;
@@ -42,6 +41,7 @@ code {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
+
 .mainLogo:hover ~ .tag {
   zoom: 1;
   filter: alpha(opacity=0);

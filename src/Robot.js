@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+
 require('./cuadro.css');
 
-export default class Robot extends Component {
-  render(){
-    return (
-        <img src='https://duckduckgo.com/assets/onboarding/robot-icon-frameless.svg' className="imagenRobot"></img>
-    );
-  }
+function Robot() {
+  return (
+    <img alt="robot" src="https://duckduckgo.com/assets/onboarding/robot-icon-frameless.svg" className="imagenRobot" />
+  );
 }
+
+export default Robot;
